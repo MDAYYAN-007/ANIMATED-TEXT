@@ -4,7 +4,7 @@ body{
     place-items: center;
     font-family: "Poppins", sans-serif;
     font-weight: 800;
-    font-size: 150px;
+    font-size: 40px;
 }
 
 .content{
@@ -22,4 +22,21 @@ body{
     100%{
         background-position: 400%;
     }
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.name{
+    font-size: 100px;
+}
+
+small{
+    text-align: right;
+}
+
+.content div{
+    text-align: right;
 }
