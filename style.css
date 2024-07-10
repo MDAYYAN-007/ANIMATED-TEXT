@@ -1,0 +1,25 @@
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 150px;
+}
+
+.content{
+    background: linear-gradient(135deg, #66a6ff 0%, #15efff 25%, #00ff37 50%, #15efff 75%, #66a6ff 100%);
+    background-size: 400%;
+    background-clip: inherit;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 10s linear infinite;
+    text-align: center;
+    text-decoration: line-through;
+}
+
+@keyframes animate {
+    100%{
+        background-position: 400%;
+    }
+}
